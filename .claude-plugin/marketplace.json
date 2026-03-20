@@ -1,0 +1,18 @@
+{
+  "name": "design-extraction-skill",
+  "metadata": {
+    "description": "Skills for reverse-engineering UI code into structured design systems in Pencil (.pen) files"
+  },
+  "owner": {
+    "name": "takujiikeda",
+    "email": "takujiikeda@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "design-extraction",
+      "description": "Extracts design tokens, components, and screens from a codebase and builds a structured design system in Pencil (.pen) files.",
+      "source": "./",
+      "category": "design"
+    }
+  ]
+}

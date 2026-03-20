@@ -1,0 +1,9 @@
+{
+  "name": "design-extraction",
+  "description": "Extracts design tokens, components, and screens from a codebase and builds a structured design system in Pencil (.pen) files. Reverse-engineers UI implementations created through vibe coding or by non-designers into organized, inspectable design artifacts.",
+  "author": {
+    "name": "takujiikeda",
+    "url": "https://github.com/tikeda"
+  },
+  "version": "0.1.0"
+}
