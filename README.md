@@ -15,8 +15,7 @@
 
 <table>
 <tr>
-<td width="50%">
-<img height="auto" alt="スクリーンショット 2026-03-23 11 39 11" src="https://github.com/user-attachments/assets/b4eec655-d9e0-4f50-929e-dcf81cce1e53" /></td><td width="50%"><img width="1722" height="1125" alt="スクリーンショット 2026-03-23 9 52 19" src="https://github.com/user-attachments/assets/c830b7b3-4bad-4349-ad11-3acad3285283" /></td></tr>
+<td width="50%"><img width="1018" height="707" alt="スクリーンショット 2026-03-23 11 39 26" src="https://github.com/user-attachments/assets/cd454768-3f37-4c9e-8def-7cf770eee914" /></td><td width="50%"><img width="1722" height="1125" alt="スクリーンショット 2026-03-23 9 52 19" src="https://github.com/user-attachments/assets/c830b7b3-4bad-4349-ad11-3acad3285283" /></td></tr>
 </table>
 
 コードベースを解析し、.pen ファイルにデザインシステムと画面デザインを再現します：
@@ -117,7 +116,6 @@ Claude Code セッション内で：
 ```
 
 ## 仕組み
-
 ### Design Extraction（6 steps）
 
 | ステップ | 内容 |
@@ -128,6 +126,8 @@ Claude Code セッション内で：
 | 4 | デザインシステム監査 — 各コンポーネントの不足ステートを提案 |
 | 5 | トークン ↔ コンポーネントのバインド |
 | 6 | 画面の再現（スクリーンショット比較はオプション） |
+
+※ ステップごとに確認を促します
 
 ### Design Variants（7 steps）
 
