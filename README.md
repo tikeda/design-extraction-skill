@@ -6,16 +6,18 @@
 
 これからのアプリケーション開発は、必ずしもデザインツールからスタートするとは限りません。コードから始まるプロジェクトが増え、エンジニアやPMなど非デザイナーがUIに関与する機会も増えていきます。それでもデザインの一貫性やクオリティは誰かがコントロールする必要があります。このプラグインは、そうした変化を理解し、新しい開発ワークフローの中でデザインを支えたいデザイナーに使ってもらいたいと思い作りました。
 
-<!-- Claude Code でのスキル実行の様子 -->
-![Claude Code での実行例](./assets/claude-code-running.png)
-
-<!-- Pencil エディタでの出力結果 -->
-![Pencil での出力結果](./assets/pencil-output.png)
+<img width="1772" height="1099" alt="sc" src="https://github.com/user-attachments/assets/421d4eda-455a-4199-b025-0f48d2cfb9a1" />
 
 ## Skills
 
 ### `/design-extraction:design-extraction`
 **コード → デザインシステム・画面デザイン**
+
+<table>
+<tr>
+<td width="50%">
+<img height="auto" alt="スクリーンショット 2026-03-23 11 39 11" src="https://github.com/user-attachments/assets/b4eec655-d9e0-4f50-929e-dcf81cce1e53" /></td><td width="50%"><img width="1722" height="1125" alt="スクリーンショット 2026-03-23 9 52 19" src="https://github.com/user-attachments/assets/c830b7b3-4bad-4349-ad11-3acad3285283" /></td></tr>
+</table>
 
 コードベースを解析し、.pen ファイルにデザインシステムと画面デザインを再現します：
 
@@ -27,6 +29,13 @@
 
 ### `/design-extraction:design-variants`
 **コードの条件分岐 → 画面の状態パターン**
+
+<table>
+<tr>
+<td width="50%">
+<img width="794" height="595" alt="スクリーンショット 2026-03-23 12 15 36" src="https://github.com/user-attachments/assets/67681988-b5ec-4eef-8bc7-439b9a4beb87" /></td><td width="50%"><img width="1592" height="893" alt="image" src="https://github.com/user-attachments/assets/4612b436-d59e-4c4a-8a13-c8010077878a" /></td></tr>
+</table>
+
 
 `design-extraction` で作成したデザインシステムと画面をベースに、コードの条件分岐を解析して、画面の表示が変わるパターンをデザインとして生成します：
 
